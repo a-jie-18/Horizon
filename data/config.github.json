@@ -22,13 +22,9 @@
         "threshold": 6.0,
         "topic_dedup": true
       },
-      "growth": {
+      "tech-blog": {
         "threshold": 4.0,
         "topic_dedup": false
-      },
-      "social-trends": {
-        "threshold": 5.0,
-        "topic_dedup": true
       }
     }
   },
@@ -83,7 +79,7 @@
         "url": "https://jamesclear.com/feed",
         "enabled": true,
         "category": "growth",
-        "profile": "growth",
+        "profile": "tech-blog",
         "content_extractor": "trafilatura"
       },
       {
@@ -91,7 +87,7 @@
         "url": "https://markmanson.net/feed",
         "enabled": true,
         "category": "growth",
-        "profile": "growth",
+        "profile": "tech-blog",
         "content_extractor": "trafilatura"
       },
       {
@@ -99,7 +95,7 @@
         "url": "https://sspai.com/feed",
         "enabled": true,
         "category": "lifestyle",
-        "profile": "growth",
+        "profile": "tech-blog",
         "content_extractor": "trafilatura"
       }
     ],
@@ -131,7 +127,7 @@
           "time_filter": "day",
           "fetch_limit": 10,
           "min_score": 30,
-          "profile": "growth"
+          "profile": "tech-blog"
         },
         {
           "subreddit": "productivity",
@@ -140,7 +136,7 @@
           "time_filter": "day",
           "fetch_limit": 10,
           "min_score": 30,
-          "profile": "growth"
+          "profile": "tech-blog"
         },
         {
           "subreddit": "DecidingToBeBetter",
@@ -149,7 +145,7 @@
           "time_filter": "day",
           "fetch_limit": 8,
           "min_score": 20,
-          "profile": "growth"
+          "profile": "tech-blog"
         },
         {
           "subreddit": "FemaleLevelUpStrategy",
@@ -158,7 +154,7 @@
           "time_filter": "day",
           "fetch_limit": 8,
           "min_score": 10,
-          "profile": "growth"
+          "profile": "tech-blog"
         }
       ],
       "users": [],
@@ -185,7 +181,7 @@
       "ceid": "zh:china",
       "max_results": 50,
       "category": "news",
-      "profile": "social-trends"
+      "profile": "tech-news"
     }
   },
   "collection": {
@@ -195,8 +191,7 @@
     "max_items": null,
     "profile_order": [
       "tech-news",
-      "growth",
-      "social-trends"
+      "tech-blog"
     ],
     "category_groups": {},
     "default_group": "other",
