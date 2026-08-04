@@ -25,6 +25,10 @@
       "tech-blog": {
         "threshold": 4.0,
         "topic_dedup": false
+      },
+      "finance-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
       }
     }
   },
@@ -191,7 +195,8 @@
     "max_items": null,
     "profile_order": [
       "tech-news",
-      "tech-blog"
+      "tech-blog",
+      "finance-news"
     ],
     "category_groups": {},
     "default_group": "other",
