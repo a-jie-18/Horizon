@@ -1,3 +1,164 @@
+{
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "temperature": 0.3,
+    "max_tokens": 8192,
+    "throttle_sec": 1,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "analysis_concurrency": 3,
+    "enrichment_concurrency": 3
+  },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "tech-news",
+    "profile_settings": {
+      "tech-news": {
+        "threshold": 6.0,
+        "topic_dedup": true
+      },
+      "tech-blog": {
+        "threshold": 4.0,
+        "topic_dedup": false
+      },
+      "finance-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      }
+    }
+  },
+  "sources": {
+    "github": [
+      {
+        "type": "repo_releases",
+        "owner": "langchain-ai",
+        "repo": "langchain",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "vllm-project",
+        "repo": "vllm",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "anthropics",
+        "repo": "anthropic-cookbook",
+        "enabled": true,
+        "profile": "tech-news"
+      }
+    ],
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 25,
+      "min_score": 120,
+      "profile": "tech-news"
+    },
+    "rss": [
+      {
+        "name": "Simon Willison (AI 工具)",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools",
+        "profile": "tech-news"
+      },
+      {
+        "name": "MIT Tech Review (科技前沿)",
+        "url": "https://www.technologyreview.com/feed/",
+        "enabled": true,
+        "category": "tech",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "James Clear (习惯与成长)",
+        "url": "https://jamesclear.com/feed",
+        "enabled": true,
+        "category": "growth",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Mark Manson (生活与心理)",
+        "url": "https://markmanson.net/feed",
+        "enabled": true,
+        "category": "growth",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "少数派 (生活方式与效率)",
+        "url": "https://sspai.com/feed",
+        "enabled": true,
+        "category": "lifestyle",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      }
+    ],
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        {
+          "subreddit": "MachineLearning",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 50,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "selfimprovement",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-blog"
+        },
+        {
+          "subreddit": "productivity",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-blog"
+        },
+        {
+          "subreddit": "DecidingToBeBetter",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 8,
+          "min_score": 20,
+          "profile": "tech-blog"
+        },
+        {
+          "subreddit": "FemaleLevelUpStrategy",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 8,
+          "min_score": 10,
+          "profile": "tech-blog"
         },
         {
           "subreddit": "TwoXChromosomes",
@@ -25,3 +186,50 @@
           "fetch_limit": 8,
           "min_score": 30,
           "profile": "tech-blog"
+        }
+      ],
+      "users": [],
+      "fetch_comments": 5
+    },
+    "telegram": {
+      "enabled": false,
+      "channels": []
+    },
+    "openbb": {
+      "enabled": false
+    },
+    "ossinsight": {
+      "enabled": false
+    },
+    "gdelt": {
+      "enabled": false
+    },
+    "google_news": {
+      "enabled": true,
+      "query": "女性成长 OR 女性自我提升 OR 女性职场 OR 女性独立 OR 女性心理 OR 个人成长 OR 人工智能 OR 科技趋势",
+      "language": "zh",
+      "country": "CN",
+      "ceid": "zh:china",
+      "max_results": 50,
+      "category": "news",
+      "profile": "tech-news"
+    }
+  },
+  "collection": {
+    "time_window_hours": 24
+  },
+  "digest": {
+    "max_items": null,
+    "profile_order": [
+      "tech-news",
+      "tech-blog",
+      "finance-news"
+    ],
+    "category_groups": {},
+    "default_group": "other",
+    "default_group_limit": null
+  },
+  "webhook": {
+    "enabled": false
+  }
+}
