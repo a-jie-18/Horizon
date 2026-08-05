@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # 需要写入权限以提交更改
-          env:
+    env:
       TZ: Asia/Shanghai  # 全 job 使用北京时间，确保 Horizon 文件名与提交信息一致
     steps:
       - name: Checkout code
