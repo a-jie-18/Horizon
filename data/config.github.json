@@ -38,26 +38,26 @@
         "type": "repo_releases",
         "owner": "langchain-ai",
         "repo": "langchain",
-        "enabled": true,
+        "enabled": false,
         "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "vllm-project",
         "repo": "vllm",
-        "enabled": true,
+        "enabled": false,
         "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "anthropics",
         "repo": "anthropic-cookbook",
-        "enabled": true,
+        "enabled": false,
         "profile": "tech-news"
       }
     ],
     "hackernews": {
-      "enabled": true,
+      "enabled": false,
       "fetch_top_stories": 25,
       "min_score": 120,
       "profile": "tech-news"
@@ -66,14 +66,14 @@
       {
         "name": "Simon Willison (AI 工具)",
         "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
+        "enabled": false,
         "category": "ai-tools",
         "profile": "tech-news"
       },
       {
         "name": "MIT Tech Review (科技前沿)",
         "url": "https://www.technologyreview.com/feed/",
-        "enabled": true,
+        "enabled": false,
         "category": "tech",
         "profile": "tech-news",
         "content_extractor": "trafilatura"
@@ -108,7 +108,7 @@
       "subreddits": [
         {
           "subreddit": "MachineLearning",
-          "enabled": true,
+          "enabled": false,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
@@ -117,7 +117,7 @@
         },
         {
           "subreddit": "artificial",
-          "enabled": true,
+          "enabled": false,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
@@ -129,8 +129,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 30,
+          "fetch_limit": 15,
+          "min_score": 10,
           "profile": "tech-blog"
         },
         {
@@ -138,8 +138,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 30,
+          "fetch_limit": 15,
+          "min_score": 10,
           "profile": "tech-blog"
         },
         {
@@ -147,8 +147,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 8,
-          "min_score": 20,
+          "fetch_limit": 15,
+          "min_score": 5,
           "profile": "tech-blog"
         },
         {
@@ -156,8 +156,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 8,
-          "min_score": 10,
+          "fetch_limit": 15,
+          "min_score": 3,
           "profile": "tech-blog"
         },
         {
@@ -165,8 +165,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 50,
+          "fetch_limit": 15,
+          "min_score": 10,
           "profile": "tech-blog"
         },
         {
@@ -174,8 +174,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 8,
-          "min_score": 20,
+          "fetch_limit": 15,
+          "min_score": 5,
           "profile": "tech-blog"
         },
         {
@@ -183,8 +183,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 8,
-          "min_score": 30,
+          "fetch_limit": 15,
+          "min_score": 10,
           "profile": "tech-blog"
         }
       ],
@@ -206,7 +206,7 @@
     },
     "google_news": {
       "enabled": true,
-      "query": "女性成长 OR 女性自我提升 OR 女性职场 OR 女性独立 OR 女性心理 OR 个人成长 OR 人工智能 OR 科技趋势",
+      "query": "女性成长 OR 女性自我提升 OR 女性职场 OR 女性独立 OR 女性心理 OR 个人成长 OR 自我管理 OR 习惯养成",
       "language": "zh",
       "country": "CN",
       "ceid": "zh:china",
