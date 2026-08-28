@@ -5,124 +5,120 @@ date: 2026-08-28
 lang: en
 ---
 
-> From 34 items, 7 important content pieces were selected
+> From 39 items, 6 important content pieces were selected
 
 ---
 
+**Technology News**
+1. [Cloud-Native Databases to Data Infrastructure Evolution](#item-tech-news-1) ⭐️ 6.0/10
+
 **Technology Blog**
-1. [BenQ&\#x27;s New Monitor Lights Adapt to Evolving Desktops](#item-tech-blog-1) ⭐️ 6.0/10
-2. [Tech Roundup: GLM-5.3-Flash, Perplexity PC, and More](#item-tech-blog-2) ⭐️ 5.0/10
-3. [Six Years with Linux: A Personal Journey](#item-tech-blog-3) ⭐️ 5.0/10
-4. [Standing Up to Bullies: A Nurse&\#x27;s Story](#item-tech-blog-4) ⭐️ 5.0/10
-5. [Editors&\#x27; Recent Gadget Purchases: A Casual Roundup](#item-tech-blog-5) ⭐️ 4.0/10
-6. [Happiness for Analytical Minds: Practical Advice](#item-tech-blog-6) ⭐️ 4.0/10
-7. [Atomic Habits: Key Takeaways for Everyday Improvement](#item-tech-blog-7) ⭐️ 4.0/10
+1. [BenQ&\#x27;s New Screen Bars Adapt to iMac and Multi-Monitor Desks](#item-tech-blog-1) ⭐️ 6.0/10
+2. [Knowledge Management for Students: A Curated Guide](#item-tech-blog-2) ⭐️ 5.0/10
+3. [Tech Roundup: GLM-5.3-Flash, Perplexity PC, BenQ Monitors, and More](#item-tech-blog-3) ⭐️ 5.0/10
+4. [Weekly Picks: 10 Films and Series Worth Watching](#item-tech-blog-4) ⭐️ 4.0/10
+5. [From Homeless to Six Figures: Lessons Learned](#item-tech-blog-5) ⭐️ 4.0/10
+
+---
+
+## Technology News
+
+<a id="item-tech-news-1"></a>
+### [Cloud-Native Databases to Data Infrastructure Evolution](https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zZVdnYTNnWjZ4SEtCMlVvamtUWHBQUW9UX19mTEpDSGxfUVBtZ2dObXpMZnJVNXlkVmRheWkydV9fZDlMYmVtXy1zOUZKNkFxMDZfM2dmRXJoUjA?oc=5) ⭐️ 6.0/10
+
+Tencent Cloud Database DBTalk presented an overview of the evolution from cloud-native databases to comprehensive data infrastructure, emphasizing architectural advancements, elasticity, and intelligent features. The discussion highlighted how modern database systems are increasingly designed to handle dynamic workloads and integrate intelligent automation. While the article provides a high-level perspective, it lacks deep technical details or novel insights, serving more as a promotional overview of Tencent Cloud&\#x27;s vision. The evolution reflects broader industry trends toward more flexible and self-managing data platforms.
+
+google\_news · InfoQ-CN · Aug 28, 04:31
+
+**「Background」** Cloud-native databases are designed to leverage cloud computing&\#x27;s scalability and flexibility, often separating storage and compute to enable on-demand resource allocation. Tencent Cloud&\#x27;s TDSQL-C is a cloud-native database that is 100% compatible with MySQL and PostgreSQL, offering high throughput and distributed intelligent storage. The evolution from traditional databases to cloud-native and then to broader data infrastructure reflects a trend toward integrating AI and serverless capabilities for enhanced elasticity and intelligence.
+
+**「Impact」** Organizations using or evaluating Tencent Cloud database services may see a roadmap toward more elastic and intelligent data infrastructure, potentially influencing their cloud adoption strategies.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cloud.tencent.com/product/tdsqlc">云原生数据库 TDSQL-C_云原生数据库_企业级分布式云数据库-腾讯云</a></li>
+<li><a href="https://www.infoq.cn/video/1CcwySmxXzh7JYU5mphM">Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk_腾讯_凌敏_InfoQ精选视频</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#cloud-native databases`, `#data infrastructure`, `#database architecture`, `#elasticity`, `#intelligent databases`
 
 ---
 
 ## Technology Blog
 
 <a id="item-tech-blog-1"></a>
-### [BenQ&\#x27;s New Monitor Lights Adapt to Evolving Desktops](https://sspai.com/post/113909) ⭐️ 6.0/10
+### [BenQ&\#x27;s New Screen Bars Adapt to iMac and Multi-Monitor Desks](https://sspai.com/post/113909) ⭐️ 6.0/10
 
 rss · 少数派 \(生活方式与效率\) · Aug 28, 01:56
 
-**「Background」** BenQ&\#x27;s original ScreenBar, launched in 2017, moved desk lamps to the top of monitors with asymmetric lighting, but as desktops evolve—iMacs, dual monitors, ultrawide screens—the old single-monitor approach hits its limits.
+**「Background」** Since BenQ introduced the first ScreenBar in 2017, screen-mounted lamps have evolved to become lighter, smarter, and nearly invisible in use. However, as desks have changed—with iMacs integrating everything into one display, multi-monitor setups becoming common, and ultrawide screens growing longer—the traditional single-monitor lamp design has hit its limits.
 
-**「Solution」** The author explains that BenQ&\#x27;s new iScreenBar and ScreenBar Max address these changes from two directions. iScreenBar is designed for iMacs: it mounts magnetically, blends with the iMac&\#x27;s design, avoids blocking cameras and speakers, and integrates with macOS via Power Sync to follow power states and adapt lighting per app. ScreenBar Max targets multi-monitor workstations: it uses a desk clamp and an 85cm arm to position a wide light bar independently of any monitor, with adjustable height and reach, and introduces ASYM-TriZone optics to cover dual-screen desks while reducing glare and shadows. Both leverage BenQ&\#x27;s mature technologies like auto-dimming and presence sensing, but they differ in philosophy—iScreenBar minimizes its presence, while ScreenBar Max embraces a larger role.
+**「Solution」** To address these shifts, BenQ launched two new products. The iScreenBar is designed specifically for iMacs: it mounts magnetically, blends with the iMac&\#x27;s aesthetics, avoids blocking cameras and speakers, and integrates with macOS via an app that syncs with power, adjusts lighting per software, and supports presence sensing. The ScreenBar Max targets multi-monitor workstations: it uses a desk clamp and an 85cm arm to position a wide light bar above screens, with adjustable height \(55-71cm\) and depth \(17.5-28cm\). Its new ASYM-TriZone optical system spreads light across dual screens, reduces shadows by staggering LEDs, and includes ambient backlighting. Both products leverage BenQ&\#x27;s mature asymmetric lighting and auto-dimming tech, but they are not replacements for existing models—they serve distinct scenarios.
 
-**「Takeaway」** The author concludes that monitor lights must evolve with changing desktop setups, and BenQ&\#x27;s new products show that design should follow real-world scenarios rather than just adding features.
+**「Takeaway」** The author concludes that BenQ&\#x27;s new lamps show how product design must adapt to changing real-world usage scenarios, not just improve specs. By focusing on the relationship between light, screens, and desks, these products demonstrate that the evolution of desk lighting is about fitting into diverse workflows.
 
-**Tags**: `#monitor light`, `#BenQ`, `#iMac`, `#dual-monitor`, `#desk lighting`
+**Tags**: `#BenQ ScreenBar`, `#desk lighting`, `#iMac accessories`, `#multi-monitor setup`, `#product review`
 
 ---
 
 <a id="item-tech-blog-2"></a>
-### [Tech Roundup: GLM-5.3-Flash, Perplexity PC, and More](https://sspai.com/post/113922) ⭐️ 5.0/10
+### [Knowledge Management for Students: A Curated Guide](https://sspai.com/post/68623) ⭐️ 5.0/10
 
-rss · 少数派 \(生活方式与效率\) · Aug 28, 00:29
+rss · 少数派 \(生活方式与效率\) · Aug 28, 07:04
 
-**「Background」** This article is a news roundup from sspai.com covering recent AI and hardware announcements. It summarizes releases from Zhipu AI, Perplexity, BenQ, Google, NVIDIA, and Microsoft, providing factual details and specifications without deep analysis.
+**「Background」** As students enter a new academic year, they face the challenge of managing vast amounts of information from courses, literature, and research. The author, 北鸮, notes that traditional methods of reading and note-taking often lead to disorganized knowledge and forgotten insights. This article compiles a series of resources from the SSPai community to help students build effective knowledge management systems, from information retrieval to academic writing.
 
-**「Solution」** The roundup highlights several key releases. Zhipu AI open-sourced GLM-5.3-Flash, a 320B-parameter MoE model with 18B active parameters, supporting text and image inputs with a 1M token context, scoring 57 on the Artificial Analysis Intelligence Index. Perplexity introduced a Portable Computer with NVIDIA, enabling on-device AI workflows. BenQ launched the Creative Pro PV50 monitors for video editing. Google released Gemini 3.5 Transcribe, an ASR model with reduced latency, and Gemini Omni 1.1 Flash for video generation. NVIDIA announced NVHBM memory for custom AI chips. Microsoft introduced a feature to digitize physical game discs. The article also includes brief mentions of Apple&\#x27;s event, GTA 6 trailer, and other minor updates.
+**「Solution」** The author curates a variety of methods and tools, emphasizing that the best approach depends on individual needs. Key strategies include using efficient information retrieval techniques, such as selecting a few high-quality databases rather than hoarding many. For literature management, the author highlights the importance of a consistent workflow, citing examples like chyixian&\#x27;s system for handling diverse sources. Note-taking methods like the card note system \(Zettelkasten\) and P.A.R.A. are presented as ways to connect ideas and build a knowledge network. The author also discusses the role of AI in knowledge management, referencing tools like NotebookLM and Obsidian plugins, and stresses the need to adapt these methods to one&\#x27;s own context rather than blindly copying. The article also covers academic writing, from choosing a topic to formatting the final paper, with references to guides on questionnaires and Word formatting.
 
-**「Takeaway」** The article provides a snapshot of recent tech developments, emphasizing advancements in AI models, hardware, and user-facing features. It is useful for readers seeking a quick overview but lacks in-depth analysis or practical insights.
+**「Takeaway」** The author&\#x27;s core message is that effective knowledge management is not about finding the perfect tool but about developing a personalized system that integrates retrieval, organization, and writing. By learning from others&\#x27; experiences and adapting them to individual workflows, students can enhance their academic efficiency and reduce stress.
 
-**Tags**: `#AI models`, `#hardware`, `#tech news`, `#announcements`, `#product updates`
+**Tags**: `#knowledge management`, `#academic writing`, `#literature review`, `#note-taking`, `#AI tools`
 
 ---
 
 <a id="item-tech-blog-3"></a>
-### [Six Years with Linux: A Personal Journey](https://sspai.com/post/89194) ⭐️ 5.0/10
+### [Tech Roundup: GLM-5.3-Flash, Perplexity PC, BenQ Monitors, and More](https://sspai.com/post/113922) ⭐️ 5.0/10
 
-rss · 少数派 \(生活方式与效率\) · Aug 27, 07:28
+rss · 少数派 \(生活方式与效率\) · Aug 28, 00:29
 
-**「Background」** The author, a long-time Linux user, addresses common misconceptions that Linux is difficult and high-barrier, especially for daily use. They share their six-year experience, starting with a decade-old ThinkPad X200 that couldn&\#x27;t run modern Windows, leading them to explore Linux as a viable alternative.
+**「Background」** In a single day, multiple tech companies announced significant product releases, from AI models to hardware. This roundup covers the most notable updates, including Zhipu&\#x27;s open-source multimodal model, Perplexity&\#x27;s edge AI device, and Google&\#x27;s new transcription and video generation models.
 
-**「Solution」** The author argues that modern Linux distributions have evolved significantly, offering user-friendly desktop environments like KDE, Cinnamon, and UKUI that rival Windows and macOS in usability. They recommend beginner-friendly distros such as Deepin, Manjaro, and Linux Mint, which provide familiar interfaces and extensive software repositories. For older hardware, lightweight distros like Arch Linux can revitalize machines with minimal resources. The author also highlights the growing software ecosystem, including WPS, Visual Studio Code, and Steam, and mentions tools like Wine and AUR to expand compatibility. They emphasize that problem-solving skills are developed through community support and online resources, making Linux accessible to newcomers.
+**「Solution」** Zhipu released GLM-5.3-Flash, a 320B-parameter MoE model with 18B active parameters, supporting text and image input with a 1M token context, under an MIT license. It scores 57 on the Artificial Analysis Intelligence Index, matching Claude Opus 4.8, and uses sparse and linear attention with manifold-constrained hyper-connections to reduce long-context compute and KV cache. Perplexity introduced Portable Computer, an edge AI agent running on NVIDIA DGX Spark, supporting local execution of Qwen 3.8 27B and PPLX 27B models without consuming credits. BenQ launched the Creative Pro PV50 monitors with Rec.709 and Gamma 2.4 calibration, 16-bit 3D LUT hardware calibration, and Thunderbolt 4. Google unveiled Gemini 3.5 Transcribe, an ASR model with 70% lower latency than Chirp 3, and Gemini Omni 1.1 Flash for video generation, offering features like scene extension and 4K output. NVIDIA introduced NVHBM, a custom HBM with integrated memory controller, boosting bandwidth by 30% and reducing power by 15%. Microsoft announced a feature to bind physical Xbox discs to digital entitlements, starting with Xbox Insiders on August 31.
 
-**「Takeaway」** The author concludes that Linux is not only viable but comfortable for daily use, especially on older hardware, and encourages readers to try it with the right distro and mindset.
+**「Takeaway」** This roundup highlights a trend toward more efficient and accessible AI models, edge computing, and user-centric hardware features, reflecting the industry&\#x27;s push for lower costs and improved user experiences.
 
-**Tags**: `#Linux desktop`, `#Arch Linux`, `#beginner guide`, `#old hardware`, `#personal experience`
+**Tags**: `#AI models`, `#hardware`, `#tech news`, `#product releases`, `#software updates`
 
 ---
 
 <a id="item-tech-blog-4"></a>
-### [Standing Up to Bullies: A Nurse&\#x27;s Story](https://www.reddit.com/r/selfimprovement/comments/1vzt9xa/why_people_bully_you/) ⭐️ 5.0/10
+### [Weekly Picks: 10 Films and Series Worth Watching](https://sspai.com/post/113944) ⭐️ 4.0/10
 
-reddit · r/selfimprovement · /u/yaboythewiseman · Aug 27, 12:58
+rss · 少数派 \(生活方式与效率\) · Aug 28, 09:44
 
-**「Background」** A nurse describes being severely bullied in their first year, to the point of contemplating self-harm. Colleagues refused to help, reminded them of mistakes, and even gave misleading advice that caused doctors to leave the OR. The existing approach of enduring or trying to be agreeable was clearly failing, and the nurse felt trapped in a hostile work environment.
+**「Background」** In a weekly roundup, the editorial team at sspai.com curates a list of ten notable films, TV series, anime, and documentaries, providing brief, opinionated blurbs to help readers decide what to watch. The list spans various genres and regions, from Hong Kong dramas to Mexican crime series, offering a diverse selection for different tastes.
 
-**「Solution」** The turning point came when a mentor nurse taught the author to &\#x27;get teeth&\#x27;—to set firm boundaries and show that mistreatment has consequences. The author began practicing assertiveness in small ways, such as telling a yelling patient that their tone was unacceptable, and was surprised to find that most people backed down when they appeared confident. For those who didn&\#x27;t, the author would firmly say, &\#x27;Call me when you&\#x27;re ready to be respectful.&\#x27; In a more serious incident, the author told their manager they would stay overtime as a break nurse, but when the manager tried to assign two patients anyway, the author simply said, &\#x27;I&\#x27;m going home&\#x27; and left, risking their job but establishing that they wouldn&\#x27;t be taken advantage of. The author emphasizes that bullies target those who seem unlikely to fight back, and that building self-esteem—through mentors, books, or podcasts—is key to summoning the courage to stand up for oneself.
+**「Solution」** The author highlights each work with a concise description and personal commentary. For instance, the Hong Kong drama &\#x27;Under the Rainbow&\#x27; uses the demolition of a public housing estate as a backdrop for seven stories about love and family. The Mexican series &\#x27;Las Azules&\#x27; returns with a new case involving student protests and a murder, while the British &\#x27;Professor T&\#x27; explores the protagonist&\#x27;s emotional growth. The film &\#x27;Straight Circle&\#x27; is praised for its allegorical satire and striking visuals, and &\#x27;廃用身&\#x27; tackles the ethical dilemma of amputating useless limbs. Anime picks include &\#x27;The Elusive Samurai&\#x27; and &\#x27;Grand Blue Dreaming&\#x27;, both noted for their humor and production quality. The documentary &\#x27;前浪&\#x27; offers a humanistic look at elderly life. The article also includes news about upcoming trailers and release dates, such as &\#x27;The Social Network&\#x27; sequel and &\#x27;Avengers: Endgame&\#x27; re-release.
 
-**「Takeaway」** The author&\#x27;s core message is that people bully those who appear passive, and the only way to stop it is to demonstrate that their actions have consequences. By setting firm boundaries and showing a willingness to enforce them, even at personal risk, you can earn respect and stop the cycle of bullying.
+**「Takeaway」** The author&\#x27;s core thesis is that this curated list offers a diverse and thoughtful selection of current media, each with unique appeal, from emotional dramas to satirical comedies, providing viewers with quality options for their next watch.
 
-**Tags**: `#workplace bullying`, `#assertiveness`, `#boundary setting`, `#self-esteem`, `#personal experience`
+**Tags**: `#film recommendations`, `#TV series`, `#anime`, `#documentary`, `#weekly roundup`
 
 ---
 
 <a id="item-tech-blog-5"></a>
-### [Editors&\#x27; Recent Gadget Purchases: A Casual Roundup](https://sspai.com/post/113905) ⭐️ 4.0/10
+### [From Homeless to Six Figures: Lessons Learned](https://www.reddit.com/r/selfimprovement/comments/1w0zc5o/went_from_being_perpetually_homeless_and_in_dead/) ⭐️ 4.0/10
 
-rss · 少数派 \(生活方式与效率\) · Aug 27, 10:00
+reddit · r/selfimprovement · /u/DueSpinach3337 · Aug 28, 18:54
 
-**「Background」** In this roundup, the editors of a tech publication share their recent gadget purchases, offering casual impressions rather than deep technical analysis. The items range from a large enclosed cat litter box to smart glasses and adjustable dumbbells, each chosen to solve a specific everyday problem.
+**「Background」** The author, who nearly flunked out of university and spent years in dead-end jobs, was homeless multiple times before turning 31. During the recession, traditional paths like university seemed too costly and time-consuming, prompting a search for a faster route to a stable career.
 
-**「Solution」** The first editor addresses the issue of cat litter scattering by switching to a large enclosed litter box, which effectively contains mess but makes cleaning more cumbersome due to its design. The second editor reviews the Ideal AI Glasses Livis, highlighting its lack of AR features but praising its optical options, comfortable fit, and integration with Ideal cars, including voice control and AI capabilities. However, they note drawbacks like heat buildup, limited camera quality, and poor Android app stability. The third editor opts for adjustable dumbbells to exercise at home, appreciating the quick weight changes and cost-effectiveness compared to traditional dumbbells, despite some instability during lifts.
+**「Solution」** The author&\#x27;s strategy combined mindset shifts with practical steps. He embraced frustration as fuel and used visualization to clarify his goals. Instead of asking &\#x27;can I do it?&\#x27;, he asked &\#x27;how do I get it done?&\#x27;, which led him to consider bootcamps. To overcome the high barrier of entry for a top bootcamp, he practiced by taking easier bootcamp exams and networked with alumni to learn what to study. After failing the entrance exam twice due to nerves, he adopted a &\#x27;fuck it&\#x27; attitude on the third attempt, which helped him relax and succeed. He emphasizes that this approach also works for job interviews.
 
-**「Takeaway」** The author concludes that these purchases, while not groundbreaking, offer practical improvements for everyday life, emphasizing convenience and cost-effectiveness over technical sophistication.
+**「Takeaway」** The author&\#x27;s core thesis is that a combination of emotional honesty, strategic preparation, and resilience in the face of rejection can enable a dramatic career change. However, he cautions that this path was viable when programming bootcamps were more accessible, and the principles are more broadly applicable than the specific career move.
 
-**Tags**: `#product review`, `#smart glasses`, `#cat litter box`, `#adjustable dumbbells`, `#consumer electronics`
-
----
-
-<a id="item-tech-blog-6"></a>
-### [Happiness for Analytical Minds: Practical Advice](https://www.reddit.com/r/selfimprovement/comments/1vznw4f/i_am_not_naturally_a_happy_person_my_humble/) ⭐️ 4.0/10
-
-reddit · r/selfimprovement · /u/nacalle76 · Aug 27, 08:15
-
-**「Background」** The author, a 50-year-old with 25 years in corporate life, describes themselves as naturally critical and analytical, noticing what&\#x27;s wrong before what&\#x27;s right. They argue that conventional happiness advice from naturally cheerful people doesn&\#x27;t work for those wired differently, and that chasing happiness as a destination leads to emptiness.
-
-**「Solution」** The author&\#x27;s advice centers on three basics: movement, sleep, and real connection. They emphasize moving in ways you enjoy, not intense workouts, because it changes brain chemistry quickly. They stress the importance of 7-8 hours of sleep, noting that chronic sleep deprivation can masquerade as normalcy. They also highlight the need for honest, non-judgmental human connection as a chemical necessity. Beyond these, they suggest replacing goals with directions—focusing on activities like moving, learning, thinking, and creating rather than fixed outcomes. They recommend keeping a &\#x27;done list&\#x27; instead of a to-do list to see progress rather than gaps. The author advises finding a system that matches your wiring, not someone else&\#x27;s.
-
-**「Takeaway」** The author concludes that analytical people aren&\#x27;t broken, just wired differently, and that working with your wiring rather than against it makes life easier. The core thesis is that practical habits—movement, sleep, connection, and direction over goals—are more effective for happiness than chasing achievements or following advice from naturally cheerful people.
-
-**Tags**: `#self-improvement`, `#happiness`, `#personal advice`, `#analytical mindset`, `#wellness`
-
----
-
-<a id="item-tech-blog-7"></a>
-### [Atomic Habits: Key Takeaways for Everyday Improvement](https://www.reddit.com/r/selfimprovement/comments/1vzsvig/atomic_habbits_everyday_is_a_good_book_day/) ⭐️ 4.0/10
-
-reddit · r/selfimprovement · /u/FragrantProgress8376 · Aug 27, 12:41
-
-**「Background」** The author shares the most memorable ideas from James Clear&\#x27;s &\#x27;Atomic Habits&\#x27;, aiming to distill the book&\#x27;s core principles for readers seeking practical self-improvement. The post addresses the common challenge of sustaining good habits without relying on motivation, offering a condensed guide to behavior change.
-
-**「Solution」** The author outlines several key strategies: making good habits obvious by placing cues in your environment, making them easy by starting with tiny actions like one page or five minutes, and making bad habits harder by adding friction. Habit stacking attaches new habits to existing routines, while tracking behaviors rather than outcomes focuses on controllable actions. The &\#x27;never miss twice&\#x27; rule prevents occasional lapses from becoming patterns, and thinking in terms of identity reinforces each action as a vote for the person you want to become. The author emphasizes that these methods require no huge motivation, just consistent repetition of easier behaviors.
-
-**「Takeaway」** The author concludes that sustainable habit change comes from designing your environment and routines to make good behaviors easier and bad ones harder, then repeating them consistently until results follow. This approach shifts focus from motivation to system design, making improvement accessible to anyone.
-
-**Tags**: `#habit formation`, `#book summary`, `#self-improvement`, `#productivity`, `#behavior change`
+**Tags**: `#career change`, `#mindset`, `#bootcamp`, `#self-improvement`, `#personal story`
 
 ---
